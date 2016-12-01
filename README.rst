@@ -58,6 +58,18 @@ Example
     >>> result = output.encode("Andreesen Horowitz")
     >>> 'A16z' # Note the upper case 'A' 
 
+Optionally you can pass a numeric argument to encode which will
+result in the numeronym being padded with zeroes.
+
+Example
+
+    >>> from numeronym import Numeronym
+    >>> Numeronym().encode('Unpadded')
+    'u6d'
+    >>> Numeronym().encode('Padded', 2)
+    'p04d' # Note the zero
+
+
 NOTE
 ====
 
