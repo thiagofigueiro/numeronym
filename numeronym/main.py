@@ -11,7 +11,7 @@ class Numeronym:
 
 
     def encode(self, input, padding=1):
-        if len(input) < 4:
+        if len(input) < 3:
             if self.allow_short == True:
                 f = input[0]
                 output = "%s%d" % (f, len(input[1:]))
@@ -21,7 +21,7 @@ class Numeronym:
 
                 return output
             else:
-                raise Exception("Input string must be at least four characters in length")
+                raise Exception("Input string must be at least three characters in length")
         else:
             f = input[0]
             l = input[-1]

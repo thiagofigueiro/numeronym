@@ -11,7 +11,6 @@ class TestNumeronym(unittest.TestCase):
 
         self.shorts = [
             'Hi',
-            'Hip',
         ]
 
         self.padded_strings = [
@@ -22,7 +21,7 @@ class TestNumeronym(unittest.TestCase):
 
         self.defaults   = ['a16z', 'i18n', 'p13n', ]
         self.uppers     = ['A16z', 'I18n', 'P13n', ]
-        self.short_defs = ['h1', 'h2', ]
+        self.short_defs = ['h1', ]
         self.short_upper= ['H1', 'H2', ]
         self.padded= ['p04d', 'p10e', 'p11r']
 
