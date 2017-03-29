@@ -1,0 +1,8 @@
+name: mtpp.numeronym
+version: 1.0.5
+
+versioning:
+  setup.py:
+    pattern: version="(.*)",
+    replace: version="{version}",
+    type: regexp

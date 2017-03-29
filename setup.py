@@ -1,8 +1,8 @@
 #!/usr/bin/env python
-
 import sys
-assert sys.version >= '2.5', "Requires Python v2.5 or above."
 from setuptools import setup
+
+assert sys.version >= '2.5', "Requires Python v2.5 or above."
 
 classifiers = [
     "License :: OSI Approved :: BSD License",
